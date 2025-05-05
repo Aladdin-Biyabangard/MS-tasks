@@ -1,6 +1,6 @@
 package Lesson2.designPatterns.singleton;
 
-import DesignPatterns.singleton.singlethread.SingletonClass;
+import Lesson2.designPatterns.singleton.singlethread.SingletonClass;
 
 public class Main {
     public static void main(String[] args) {
