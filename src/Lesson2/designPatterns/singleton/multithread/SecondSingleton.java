@@ -4,7 +4,14 @@ package Lesson2.designPatterns.singleton.multithread;
 
 public class SecondSingleton {
 
+    //Reflection qarsisini aliriq
+    private static boolean instanceCreated = false;
+
+
     private SecondSingleton() {
+        if (instanceCreated) {
+            throw new RuntimeException("Class artiq yaradilib!");
+        }
     }
 
     private static class Holder {
