@@ -1,6 +1,7 @@
 package Lesson1.SOLID.i;
 
-import S.User;
+
+import Lesson1.SOLID.S.User;
 
 public interface UserService {
 
