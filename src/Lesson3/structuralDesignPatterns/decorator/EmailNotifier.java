@@ -1,0 +1,12 @@
+package Lesson3.structuralDesignPatterns.decorator;
+
+class EmailNotifier extends NotifierDecorator {
+    public EmailNotifier(Notifier notifier) {
+        super(notifier);
+    }
+
+    public void send(String message) {
+        super.send(message);
+        System.out.println("Sending Email: " + message);
+    }
+}
